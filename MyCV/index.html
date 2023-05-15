@@ -4,14 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/styles.css">
     <title>My resume</title>
 </head>
 <body>
-    <!-- Main section -->
-    <div>
-              <!-- About me section -->
-        <div>
-            <h3>Front-End Developer</h3>
+    <!-- Our app -->
+    <div class="main-section">
+        <!-- Main section -->
+        <div class="right-section">
+                <!-- About me section -->
+        <div class="about-me-section">
+            <h3 class="about-me-profession">Front-End Developer</h3>
 
             <h1>Vlad Lazar</h1>
         
@@ -21,7 +27,7 @@
 
         </div>
         <!-- Projects section -->
-        <div>
+        <div class="projects-sections">
             <h2>Projects</h2>
 
             <ol>
@@ -43,7 +49,7 @@
             </ol>
         </div>
         <!-- Work experience section -->
-        <div>
+        <div class="work-experience-section">
             <h2>Work Experience</h2>
             <!-- Company number 3 -->
             <div>
@@ -88,46 +94,48 @@
             </div>            
         </div>
 
-    </div>
-    <!-- Side bar section -->
-    <aside>
+        </div>
+        <!-- Side bar section -->
+        <aside class="sidebar-section">
         <img src="./img/photo.jpg" alt="My photo">
         <!-- Contacts section -->
-        <div>
-            <h2>Contacts</h2>
+        <div class="contacts-section">
+            <h2 class="sidebar-title">Contacts</h2>
             <div>
-                <span>C:</span>
-                <a href="tel:+77777777777">+7 777 777 77 77</a>
+                <span class="contacts-section-type">C:</span>
+                <a class="contacts-section-value" href="tel:+77777777777">+7 777 777 77 77</a>
             </div>
             <div>
-                <span>E:</span>
-                <a href="mailto:johndoe@gmail.com">johndoe@gmail.com</a>
+                <span class="contacts-section-type">E:</span>
+                <a class="contacts-section-value" href="mailto:johndoe@gmail.com">johndoe@gmail.com</a>
             </div>
         </div>
         <!-- Tech skills section -->
-        <div>
-            <h2>Tech skills</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>GIT</li>
-                <li>WebPack</li>
-                <li>JavaScript</li>
-                <li>Node.js</li>
-                <li>React.js</li>
+        <div class="skills-section">
+            <h2 class="sidebar-title">Tech skills</h2>
+            <ul class="sidebar-list">
+                <li><span>HTML5</span></li>
+                <li><span>CSS3</span></li>
+                <li><span>GIT</span></li>
+                <li><span>WebPack</span></li>
+                <li><span>JavaScript</span></li>
+                <li><span>Node.js</span></li>
+                <li><span>React.js</span></li>
             </ul>
         </div>
         <!-- Soft skills -->
-        <div>
-            <h2>Soft skills</h2>
-            <ul>
-                <li>Scrum</li>
-                <li>Agile</li>
-                <li>GTD</li>
-                <li>Teamwork</li>
+        <div class="skills-section">
+            <h2 class="sidebar-title">Soft skills</h2>
+            <ul class="sidebar-list">
+                <li><span>Scrum</span></li>
+                <li><span>Agile</span></li>
+                <li><span>GTD</span></li>
+                <li><span>Teamwork</span></li>
             </ul>
         </div>
-    </aside>
+        </aside>
+    </div>
+
 
 </body>
 
