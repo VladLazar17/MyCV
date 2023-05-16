@@ -105,7 +105,7 @@ ol li, .bracket {
     color: #FB6D3A;
 }
 
-.work-experience-period {
+.period {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -133,9 +133,10 @@ ol li, .bracket {
 
 .education-section {
     margin-bottom: 110px;
+    margin-top: 40px;
 }
 
-.education-school {
+.university-name {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -144,7 +145,7 @@ ol li, .bracket {
     color: #FB6D3A;
 }
 
-.education-profile {
+.university-degree {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
